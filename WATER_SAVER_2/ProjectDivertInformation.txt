@@ -1,0 +1,6 @@
+﻿16 February 2020 11:31:06
+
+<CS+ IDE(Integrated Development Environment Framework) version>
+ CS+ IDE: V5.05.00.00 -> V5.05.00.02 [12 Apr 2019]
+
+
