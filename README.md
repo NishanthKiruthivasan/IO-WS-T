@@ -9,6 +9,7 @@ The hardware used are as follows:
 2. ADXL335 - This is a 3-axis accelerometer. It was chosen due to its high accuracy and low-power operation.
 3. Air602 Wi-fi module - This is a low cost wi-fi module.
 4. 555 timer IC - Its a timer IC used for timing.
+
 Other than these components some wires and connectors are necessary.
 The photo uploaded below showcase the connections (Sorry for the shabiness. I did this project when I didn't know any better).
 
