@@ -14,4 +14,4 @@ The photo uploaded below showcase the connections (Sorry for the shabiness. I di
 
 ![WhatsApp Image 2025-01-04 at 09 32 17](https://github.com/user-attachments/assets/3bebcbfe-10c2-4f2d-ae78-2583cc33de1b)
 
-This project was developed for a competition whose final round was about to held during the March of 2020 (Talk about timing).
+This project was developed for a competition whose final round was about to be held during the March of 2020 (Talk about timing).
