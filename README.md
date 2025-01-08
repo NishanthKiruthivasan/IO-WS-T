@@ -1,5 +1,17 @@
 # IO(WS)T
 
-These are the different versions of code developed for an IoT device that senses water droplets from the leakage of water from taps and hence can send the data based on preset values. This was developed pre Covid-19 lockdowns. The hardware design will be uploaded shortly. This design uses a lowcost wifi-module named Air602 and thus the code reflects that. The code is written in Embedded C and the microcontroller used is a Renesas one.
+This is an IoT device that senses droplets from water tap leakage and informs communicates that through Wi-fi. This was developed pre Covid-19 lockdowns. The water sensing part was very hard to figure out. I tried multiple sensor like force sensors, vibration sensors and flex sensors but none of them were ssensitive enough to detect water droplets. After much brainstorming I planned to use ADXL335 accelerometer sensor aas I remember reading a paper in which it was used to detect pulse froma jugular vein of a person. Henci I stuck a flexible clear plastic sheet to the accelerometer and made my own high sensitive flex sensor. It worked like a dream.
 
-This project was developed in regards to a competition whose final round was about to held during the March of 2020 (Talk about timing). The photo i am adding below has me participating in the prelims for this competition on 31st of Oct 2019.![75035313_2560395724038387_7562629954404352_n(Copy)](https://github.com/user-attachments/assets/e5d56045-fe13-4019-903f-9fea4a19148e)
+The programs developed use thread based programming to make it more efficient and fast. It is overkill for such a small project but it just felt right. I have attached the 2 programs which are two versions of the same code.
+
+The hardware used are as follows:
+1. R5F100LEA - This is a 64 pin, 16-bit microcontroller from Renesas. This was chosen as I had a development kit of it lying around from a previous project.
+2. ADXL335 - This is a 3-axis accelerometer. It was chosen due to its high accuracy and low-power operation.
+3. Air602 Wi-fi module - This is a low cost wi-fi module.
+4. 555 timer IC - Its a timer IC used for timing.
+Other than these components some wires and connectors are necessary.
+The photo uploaded below showcase the connections (Sorry for the shabiness. I did this project when I didn't know any better).
+
+![WhatsApp Image 2025-01-04 at 09 32 17](https://github.com/user-attachments/assets/3bebcbfe-10c2-4f2d-ae78-2583cc33de1b)
+
+This project was developed for a competition whose final round was about to held during the March of 2020 (Talk about timing).
