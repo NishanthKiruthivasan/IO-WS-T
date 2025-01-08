@@ -11,7 +11,7 @@ The hardware used are as follows:
 4. 555 timer IC - Its a timer IC used for timing.
 Other than these components some wires and connectors are necessary.
 
-The photo uploaded below showcase the connections (Sorry for the shabiness. I did this project when I didn't know any better).
+The photo uploaded below showcase the connections (Sorry for the shabbiness. I did this project when I didn't know any better).
 
 ![WhatsApp Image 2025-01-04 at 09 32 17](https://github.com/user-attachments/assets/3bebcbfe-10c2-4f2d-ae78-2583cc33de1b)
 
