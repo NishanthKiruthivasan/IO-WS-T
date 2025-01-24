@@ -1,6 +1,6 @@
 # IO(WS)T
 
-This is an IoT device that senses droplets from water tap leakage and informs communicates that through Wi-fi. This was developed pre Covid-19 lockdowns. The water sensing part was very hard to figure out. I tried multiple sensor like force sensors, vibration sensors and flex sensors but none of them were ssensitive enough to detect water droplets. After much brainstorming I planned to use ADXL335 accelerometer sensor aas I remember reading a paper in which it was used to detect pulse froma jugular vein of a person. Henci I stuck a flexible clear plastic sheet to the accelerometer and made my own high sensitive flex sensor. It worked like a dream.
+This is an IoT device that senses droplets from water tap leakage and informs communicates that through Wi-fi. This was developed pre Covid-19 lockdowns. The water sensing part was very hard to figure out. I tried multiple sensors like force, vibration and flex but none of them were ssensitive enough to detect water droplets. After much brainstorming I planned to use ADXL335 accelerometer sensor aas I remember reading a paper in which it was used to detect pulse froma jugular vein of a person. Henci I stuck a flexible clear plastic sheet to the accelerometer and made my own high sensitive flex sensor. It worked like a dream.
 
 The programs developed use thread based programming to make it more efficient and fast. It is overkill for such a small project but it just felt right. I have attached the 2 programs which are two versions of the same code.
 
