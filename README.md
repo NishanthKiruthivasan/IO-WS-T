@@ -15,4 +15,4 @@ The photo uploaded below showcase the connections (Sorry for the shabbiness. I d
 
 ![WhatsApp Image 2025-01-04 at 09 32 17](https://github.com/user-attachments/assets/3bebcbfe-10c2-4f2d-ae78-2583cc33de1b)
 
-This project was developed for a competition whose final round was about to be held during the March of 2020 (Talk about timing).
+This project was developed for a competition whose final round was about to be held during the March of 2020 (Talk about timing). The competition's rules restricted me from using Arduino, Raspberry pi, TI boards, NODE MCU and Arduino IDE for development. Hence the components were chosen based on availability.
