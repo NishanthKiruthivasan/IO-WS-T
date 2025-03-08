@@ -1,18 +1,59 @@
-# IO(WS)T
+# **IO(WS)T – Smart Water Leak Detection using IoT**  
 
-This is an IoT device that senses droplets from water tap leakage and informs communicates that through Wi-fi. This was developed pre Covid-19 lockdowns. The water sensing part was very hard to figure out. I tried multiple sensors like force, vibration and flex but none of them were ssensitive enough to detect water droplets. After much brainstorming I planned to use ADXL335 accelerometer sensor aas I remember reading a paper in which it was used to detect pulse froma jugular vein of a person. Henci I stuck a flexible clear plastic sheet to the accelerometer and made my own high sensitive flex sensor. It worked like a dream.
+## **🌊 Overview**  
+IO(WS)T is an IoT-based device designed to detect and report water leakage from taps using **Wi-Fi communication**. This project was developed **before the COVID-19 lockdowns**, and the biggest challenge was identifying a highly **sensitive water droplet sensor**.  
 
-The programs developed use thread based programming to make it more efficient and fast. It is overkill for such a small project but it just felt right. I have attached the 2 programs which are two versions of the same code.
+After experimenting with **force, vibration, and flex sensors**—which all proved insufficient—I devised a unique approach. Inspired by a research paper on **jugular vein pulse detection**, I used an **ADXL335 accelerometer** with a **flexible plastic sheet**, effectively creating a **highly sensitive flex sensor**. This unconventional approach worked **flawlessly**.  
 
-The hardware used are as follows:
-1. R5F100LEA - This is a 64 pin, 16-bit microcontroller from Renesas. This was chosen as I had a development kit of it lying around from a previous project.
-2. ADXL335 - This is a 3-axis accelerometer. It was chosen due to its high accuracy and low-power operation.
-3. Air602 Wi-fi module - This is a low cost wi-fi module.
-4. 555 timer IC - Its a timer IC used for timing.
-Other than these components some wires and connectors are necessary.
+---
 
-The photo uploaded below showcase the connections (Sorry for the shabbiness. I did this project when I didn't know any better).
+## **⚡ Technical Highlights**  
+- **Multi-threaded programming** for improved efficiency and faster execution (admittedly overkill for this project, but it felt right!).  
+- **Two versions of the program** are included in this repository.  
+- **Non-traditional sensor approach** using an **accelerometer as a droplet detector**.  
 
-![WhatsApp Image 2025-01-04 at 09 32 17](https://github.com/user-attachments/assets/3bebcbfe-10c2-4f2d-ae78-2583cc33de1b)
+---
 
-This project was developed for a competition whose final round was about to be held during the March of 2020 (Talk about timing). The competition's rules restricted me from using Arduino, Raspberry pi, TI boards, NODE MCU and Arduino IDE for development. Hence the components were chosen based on availability.
+## **🛠️ Hardware Components Used**  
+1️⃣ **R5F100LEA** – A 64-pin, **16-bit Renesas microcontroller**, chosen because I had a **development kit** from a previous project.  
+2️⃣ **ADXL335** – A **3-axis accelerometer**, selected for its **high accuracy** and **low-power operation**.  
+3️⃣ **Air602 Wi-Fi module** – A **low-cost** and efficient **Wi-Fi communication module**.  
+4️⃣ **555 Timer IC** – Used for **timing operations** in the circuit.  
+5️⃣ **Miscellaneous components** – Wires, connectors, and other essential circuit elements.  
+
+---
+
+## **📸 Wiring & Setup**  
+*(Apologies for the messy wiring—I built this project before I learned better wiring practices!)*  
+
+![Circuit Image](https://github.com/user-attachments/assets/3bebcbfe-10c2-4f2d-ae78-2583cc33de1b)  
+
+---
+
+## **🏆 Competition & Constraints**  
+This project was developed for a **competition** scheduled for **March 2020** (talk about unfortunate timing!).  
+The competition imposed strict constraints:  
+❌ **No Arduino, Raspberry Pi, TI boards, NodeMCU, or Arduino IDE.**  
+✅ Components were chosen based on availability and rule compliance.  
+
+---
+
+## **🚀 Getting Started**  
+To run the code on your setup:  
+1. **Ensure all hardware connections** are properly made.  
+2. Flash the **R5F100LEA microcontroller** with the provided program.  
+3. Connect the **Wi-Fi module** to a network for communication.  
+4. Run the **thread-based program** for optimal efficiency.  
+
+---
+
+## **📂 Repository Contents**  
+- **Two versions of the program** (attached in the repository).  
+- **Circuit images** for reference.  
+
+---
+
+## **📬 Feedback & Contributions**  
+Feel free to **fork**, **modify**, and **contribute** to this project! If you have any questions, drop a comment or open an **issue**.  
+
+🚀 *Happy Innovating!*  
